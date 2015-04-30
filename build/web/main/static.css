@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2015, 12:29:31 PM
+    Author     : antonios
+*/
+
+
+body{    
+    //background-image: url(files/background.jpg);
+    //background-size: cover;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    color: green;
+    text-align: center;
+}
+
+#aboy{
+    position: fixed;
+    top:25%;
+    left:25%;
+    border-style: dotted;
+    padding: 2%;
+    border-radius: 7%;
+}
+
+#agirl{
+    position: fixed;
+    top:25%;   
+    right: 25%;
+    border-style: dotted;
+    padding: 2%;
+    border-radius: 7%;
+}
+
+
+#login{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 22px;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    display: inline-block;
+    float: left;   
+}
+
+#submit_button_1{
+    background-color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    top: 42%;
+    left: 46%;
+    border:2px solid #dadada;
+    border-radius:7px;
+}
+
+#congrats{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 22px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 45%;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    float: left;
+}
+
+#sc1{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+#sc2{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+#sc_link{
+    color: green;
+}
+
+#gap{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 20px;
+    position: fixed;
+    top: 30%;
+    left: 40%;  
+}
+
+#class{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+#aButton {
+    background-color:green;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    border:1px solid #83c41a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:15px;
+    //font-weight:bold;
+    padding:10px 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #86ae47;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position:relative;
+    top:100px;
+
+}
+#aButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
+    background:-moz-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:-webkit-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:-o-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:-ms-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356',GradientType=0);
+    background-color:#a5cc52;
+}
+
+#nextTest{
+    background-color:green;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    border:1px solid #83c41a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:15px;
+    padding:10px 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #86ae47;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position:relative;
+    top:300px;
+    left:300px;
+}
+
+#subuser{
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    font-size:25px;
+    width:300px;
+    position:relative;
+    top:150px;
+    left:500px;
+
+}
+
+#details{
+    font-weight:bold;
+    position:relative;
+    top:60px;
+    font-size: 22px;
+}

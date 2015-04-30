@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2015, 12:29:31 PM
+    Author     : antonios
+*/
+
+
+body{    
+    //background-image: url(background.jpg);
+    //background-size: cover;
+
+}
+#login{
+    color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 16px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    display: inline-block;
+    float: left;     
+}
+
+#submit_button_1{
+    background-color: green;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 46%;
+    border:2px solid #dadada;
+    border-radius:7px;
+}
+
+#congrats{
+    color: white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 45%;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    position: absolute;
+}
+
+#sc1{
+    color: white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+#sc2{
+    color: white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+#sc_link{
+    color: greenyellow;
+}
+
+#gap{
+    color: white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 20px;
+    position: fixed;
+    top: 30%;
+    left: 40%;  
+}
+
+#class{
+    color: white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+#aButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+    box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52));
+    background:-moz-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background:-webkit-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background:-o-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background:-ms-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52',GradientType=0);
+    background-color:#b8e356;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    border:1px solid #83c41a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:15px;
+    font-weight:bold;
+    padding:10px 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #86ae47;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#aButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
+    background:-moz-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:-webkit-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:-o-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:-ms-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+    background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356',GradientType=0);
+    background-color:#a5cc52;
+}
+#aButton:active {
+    position:relative;
+    top:1px;
+}
+
+#form{
+    position: absolute;
+    left:81%;
+    top:81%;
+}
+
+#nextTest{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
+

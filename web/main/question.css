@@ -1,0 +1,503 @@
+body {
+    background-image: url(board.png);
+    background-size: 1100px 550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#go{
+    position: absolute;
+    left: 530px;
+    top: 150px;
+    border-radius: 7%;
+    border-style: solid;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 15px 15px 15px 15px;
+    background-color: Transparent;
+}
+
+#myImage1{    
+    position: absolute;
+    left:45%;
+    top:40%;
+}
+
+#myDiv{
+    position: absolute;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:35px;
+    text-align:center;
+    color:white;
+    left:45%;
+    top:35%;
+
+}
+
+#exist{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    font-size:20px;
+    left:35%;
+    top:47%;
+    border:solid;
+}
+
+#notexist{
+    color:white;
+    background:red;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    font-size:20px;
+    right:35%;
+    top:47%;
+    border:solid;
+}
+
+#form{
+    position: absolute;
+    left:81%;
+    top:81%;
+}
+
+#nextTest{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
+#next{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;  
+    position:fixed;
+    right:25%;
+    top:70%;
+}
+
+
+
+#myImageMotif{    
+    border-color:white;
+    border-style:solid;
+    position: fixed;
+    left:35%;
+    top:10%;
+}
+
+#answers{
+    position:fixed;
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    top:59%;
+    left:15%;
+
+}
+
+#answersSevenUp{
+    position:fixed;
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    top:30%;
+    left:25%;
+    font-size:20px;
+
+}
+#answersSevenDown{
+    position:fixed;
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    top:30%;
+    left:25%;
+    font-size:20px;
+
+}
+
+#answersEight{
+    position:fixed;
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    top:19%;
+    left:45%;  
+    font-size:26px;
+}
+
+#answersNine{
+    position:fixed;
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    top:19%;
+    left:45%;  
+    font-size:26px;
+}
+
+#answerTwelve{
+    position:fixed;
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    top:9%;
+    left:9%;  
+    font-size:20px;    
+
+}
+
+#answer{
+    position:fixed;
+    top:15%;
+    left:14%;
+}
+
+#ImageOne{
+    border-color:white;
+    border-style:solid; 
+}
+
+#ImageTwo{
+    border-color:white;
+    border-style:solid;   
+}
+
+#ImageThree{
+    border-color:white;
+    border-style:solid;       
+}
+
+#myImageTree{
+    position: fixed;
+    left:9%;
+    top:9%;
+
+}
+
+#ImageFour{
+    border-color:white;
+    border-style:solid;    
+}
+
+#ImageFive{
+    border-color:white;
+    border-style:solid;
+}
+
+#ImageSix{
+    border-color:white;
+    border-style:solid;
+}
+
+#OKbutton{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:50%;
+
+}
+
+#OKbuttonSix{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:75%;
+    font-size:20px;
+
+}
+
+#OKbuttonSix{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:75%;
+    font-size:20px;
+
+}
+
+#OKbuttonSeven{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:75%;
+    font-size:20px;
+
+}
+
+#OKbuttonEight{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:75%;
+    font-size:20px;
+
+}
+
+#OKbuttonNine{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:74%;
+    font-size:20px;
+}
+
+#OKbuttonEleven{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:79%;    
+
+}
+
+#OKbuttonTwelve{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+    left:45%;
+    top:79%;     
+
+}
+
+#go:hover {
+    text-decoration: none;
+}
+
+/*#_1{
+    position:absolute;
+    right:25%;
+    top:25%;   
+}
+
+#_2{
+    position:absolute;
+    right:20%;
+    top:25%;       
+}
+
+#_3{
+    position:absolute;
+    right:15%;
+    top:25%;       
+}*/
+
+#row1,#row2,#row3,#row4{
+    width:200pt; 
+}
+
+#aButton{
+    position: fixed;
+    top: 10%;
+    right: 20%;
+}
+
+#Image{
+    position: fixed;
+    top: 20%;
+    right: 30%;    
+}
+
+#ImageCalc{
+    position: fixed;
+    top: 20%;
+    left: 40%; 
+}    
+
+#correct{
+    color:white;
+    background:greenyellow;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    font-size:20px;
+    left:40%;
+    top:47%;
+    border:solid;    
+
+}
+
+#wrong{
+    color:white;
+    background:red;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    font-size:20px;
+    right:40%;
+    top:47%;
+    border:solid;    
+
+}
+
+
+#answerEleven{
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:20px;
+    position:absolute;
+    left:10%;
+    top:10%;
+}
+
+#textOne{
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:18px;
+    position:absolute;
+    left:9%;
+    top:10%;
+
+}
+#text{
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:14px;
+    position:absolute;
+    left:9%;
+    top:10%;
+
+}
+
+#questionSix{
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:18px;
+    position:absolute;
+    left:9%;
+    top:40%;
+}
+
+#questionSixB{
+    color:white;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    font-size:14px;
+    position:absolute;
+    left:9%;
+    top:40%;
+}
+
+
+#playAudio{
+    color:white;
+    background:cyan;
+    font-family: Chalkboard, Casual, 'Comic Sans MS', TSCu_Comic, cursive;
+    border-radius: 80%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    position:fixed;
+    font-size:22px;
+    left:40%;
+    top:10%;    
+    border:solid;  
+}
+
+
+#radio81{
+    position:fixed;
+    left:45%;
+    top:20%;
+}
+
+#radio82{
+    position:fixed;
+    left:45%;
+    top:30%;
+}
+
+#radio83{
+    position:fixed;
+    left:45%;
+    top:40%;
+}
+
+#radio84{
+    position:fixed;
+    left:45%;
+    top:50%;
+}
+
+#wordOne{
+    position:fixed;
+    left:47%;
+    top:18%;
+
+}
+
+#wordTwo{
+    position:fixed;
+    left:47%;
+    top:28%;
+
+}
+
+#wordThree{
+    position:fixed;
+    left:47%;
+    top:38%;
+
+}
+
+#wordFour{
+    position:fixed;
+    left:47%;
+    top:48%;
+
+}
+
+#keypad{
+    position:fixed;
+    left:67%;
+    top:28%; 
+}
