@@ -59,11 +59,12 @@ public class CreateDir extends HttpServlet {
         String res = subuser + "\n" + level + "\n" + sex;
         String path;
 
-        path = "web\\results\\" + username + "\\" + subuser;
+        path = getServletContext().getRealPath("/site/wwwroot/bin/apache-tomcat-7.0.52/webapps/askisi") + "\\web\\results\\" + username + "\\" + subuser;
         File file = new File(path);
 
         if (!file.exists()) {
             if (file.mkdirs()) {
+                System.out.println(getServletContext().getRealPath(path));
                 System.out.println("Directory username is created!");
             } else {
                 System.out.println("Failed to create directory!");
@@ -71,7 +72,7 @@ public class CreateDir extends HttpServlet {
             }
         }
         try {
-            File filedet = new File(path + "\\details.txt");
+            File filedet = new File(getServletContext().getRealPath("/site/wwwroot/bin/apache-tomcat-7.0.52/webapps/askisi/web/results/" + username + "/" + subuser) + "\\details.txt");
             if (filedet.createNewFile()) {
                 System.out.println("File is created!");
             } else {

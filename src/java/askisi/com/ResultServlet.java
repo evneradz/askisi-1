@@ -65,8 +65,8 @@ public class ResultServlet extends HttpServlet {
             }
         } catch (NumberFormatException e) {
         }
-        path = "web\\results\\" + username + "\\" + subname + "\\question" + i + ".txt";
-        String subpath = "web\\results\\" + username + "\\" + subname;
+        path = getServletContext().getRealPath("/site/wwwroot/bin/apache-tomcat-7.0.52/webapps/askisi/web/results/" + username) + "_" + subname + "question" + i + ".txt";
+        //String subpath = "web\\results\\" + username + "\\" + subname;
         File file = new File(path);
         System.out.println(" path " + path);
 
@@ -76,10 +76,11 @@ public class ResultServlet extends HttpServlet {
             } else {
                 System.out.println("File already exists.");
             }
-
         } catch (IOException e) {
+            System.out.println("Exception " + e);
         }
-
+        
+        path = getServletContext().getRealPath("/site/wwwroot/bin/apache-tomcat-7.0.52/webapps/askisi/web/results/" + username + "_" + subname + "question" + i + ".txt");
         try (PrintWriter writer = new PrintWriter(path, "UTF-8")) {
             writer.println(res);
             System.out.println(res);

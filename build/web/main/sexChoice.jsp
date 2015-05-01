@@ -14,8 +14,8 @@
         <title>Πες μας...</title>
 
     </head>
-    <%String url = "http://localhost:8080/askisi";%>
-    <%--<%String url = "http://askisi.azurewebsites.net/askisi";%>--%>>
+    <%--<%String url = "http://localhost:8084/askisi";%>--%>
+    <%String url = "http://askisi.azurewebsites.net/askisi";%>
     <body>
 
         <div id="details">

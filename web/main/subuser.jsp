@@ -17,6 +17,7 @@
             <jsp:setProperty name="subuser" property="level" value='<%=request.getParameter("level")%>'/>
             <jsp:setProperty name="subuser" property="sex" value='<%=request.getParameter("sex")%>'/>
         </jsp:useBean>
+        <%--<jsp:forward page="http://localhost:8080/askisi/CreateDir">--%>
         <jsp:forward page="http://localhost:8080/askisi/CreateDir">
             <jsp:param name="subuser" value="<%=subuser.getSubuser()%>" />
             <jsp:param name="level" value="<%=subuser.getLevel()%>" />

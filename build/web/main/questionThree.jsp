@@ -13,8 +13,8 @@
         <link rel="shortcut icon" href="files/askisi.ico" />
         <title>Ερώτηση 3</title>
     </head>
-    <%String url = "http://localhost:8080/askisi";%>
-    <%--<%String url = "http://askisi.azurewebsites.net/askisi";%>--%>>
+    <%--<%String url = "http://localhost:8084/askisi";%>--%>
+    <%String url = "http://askisi.azurewebsites.net/askisi";%>
     <body>
         <input id="go" type = "button"  value = "Ξεκινάμε!" onclick ="show();">
         <div id="up">
