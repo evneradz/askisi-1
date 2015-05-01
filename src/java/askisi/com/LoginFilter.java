@@ -25,8 +25,8 @@ public class LoginFilter implements Filter {
     String url;
 
     public LoginFilter() {
-        //this.url = "http://localhost:8080/askisi/";
-        this.url = "http://askisi.azurewebsites.net/askisi";
+        this.url = "http://localhost:8080/askisi/";
+        //this.url = "http://askisi.azurewebsites.net/askisi";
     }
 
     @Override

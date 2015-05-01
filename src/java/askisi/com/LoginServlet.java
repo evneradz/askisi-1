@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("un");
         String password = request.getParameter("pw");
         String url = "jdbc:mysql://eu-cdbr-azure-north-c.cloudapp.net:3306/askisiAD1V6Rvv8M";
-        String path = "askisi\\web\\results\\" + username;
+        //String path = "askisi\\web\\results\\" + username;
 
         try {
 
@@ -77,7 +77,7 @@ public class LoginServlet extends HttpServlet {
 
                 HttpSession session = request.getSession(true);
                 session.setAttribute("username", request.getParameter("un"));
-                File file = new File(path);
+                //File file = new File(path);
                 response.sendRedirect("main/sexChoice.jsp");
             } else {
                 response.sendRedirect("index.jsp");
